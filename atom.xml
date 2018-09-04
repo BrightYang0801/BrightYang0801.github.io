@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>萌萌哒的童话</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://michaelxiang.me/"/>
+  <updated>2018-09-04T01:57:55.701Z</updated>
+  <id>http://michaelxiang.me/</id>
+  
+  <author>
+    <name>周红</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git</title>
+    <link href="http://michaelxiang.me/git/git/"/>
+    <id>http://michaelxiang.me/git/git/</id>
+    <published>2018-09-03T07:54:13.000Z</published>
+    <updated>2018-09-04T01:57:55.701Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="git-修改分支名称"><a href="#git-修改分支名称" class="headerlink" title="git 修改分支名称"></a>git 修改分支名称</h1><p>假设分支名称为 oldName<br>想要修改为 newName</p><ol><li><p><strong> 本地分支重命名(还没有推送到远程) </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br><span class="line">git branch -m oldName newName</span><br><span class="line">git push --delete origin oldName</span><br></pre></td></tr></table></figure></li><li><p><strong> 远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) </strong></p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;git-修改分支名称&quot;&gt;&lt;a href=&quot;#git-修改分支名称&quot; class=&quot;headerlink&quot; title=&quot;git 修改分支名称&quot;&gt;&lt;/a&gt;git 修改分支名称&lt;/h1&gt;&lt;p&gt;假设分支名称为 oldName&lt;br&gt;想要修改为 newName&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+      <category term="git" scheme="http://michaelxiang.me/categories/git/"/>
+    
+    
+      <category term="git" scheme="http://michaelxiang.me/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>typescript</title>
+    <link href="http://michaelxiang.me/%E5%89%8D%E7%AB%AF/typescript/"/>
+    <id>http://michaelxiang.me/前端/typescript/</id>
+    <published>2018-08-31T13:38:40.000Z</published>
+    <updated>2018-09-04T01:45:35.325Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="前端" scheme="http://michaelxiang.me/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="前端" scheme="http://michaelxiang.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+</feed>
