@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://michaelxiang.me/top/index.html</loc>
+    
+    <lastmod>2018-09-14T06:50:05.158Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://michaelxiang.me/%E5%89%8D%E7%AB%AF/sass/</loc>
     
     <lastmod>2018-09-14T06:41:53.868Z</lastmod>
@@ -75,13 +82,6 @@
     <loc>http://michaelxiang.me/tags/index.html</loc>
     
     <lastmod>2018-09-03T08:05:45.362Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://michaelxiang.me/top/index.html</loc>
-    
-    <lastmod>2018-09-03T01:44:45.023Z</lastmod>
     
   </url>
   

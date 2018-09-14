@@ -150,27 +150,6 @@
     </entry>
     
     <entry>
-      <title>macOS系统下的React Native 开发环境配置</title>
-      <link href="/react-native/react-native/"/>
-      <url>/react-native/react-native/</url>
-      <content type="html"><![CDATA[<ol><li><p><strong> Homebrew安装 </strong><br>Homebrew是一款自由及开放源代码的软件包管理系统，用以简化Mac OS X系统上的软件安装过程，Homebrew以Ruby语言写成，针对于Mac OS X操作系统自带Ruby的版本。默认安装在/usr/local，由一个核心git版本库构成，以使用户能更新Homebrew。是 OS X 不可或缺的套件管理器。<br>安装之前，你可以先检查一下电脑上是否已经安装了Homebrew，检查方式如下：<br>在终端执行下列命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew -v</span><br></pre></td></tr></table></figure><p> 如果已经安装了，终端会显示版本号。<br> 如果没有安装，那就可以用下面这种方式，进行安装，在终端上直接输入下面的命令即可：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure></li><li><p><strong> node.js安装 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install node &amp;&amp; nvm alias default node</span><br></pre></td></tr></table></figure></li><li><p><strong> 安装watchman 和 flow </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew install watchman</span><br><span class="line">brew install flow</span><br></pre></td></tr></table></figure></li><li><p><strong> 安装React Native </strong><br>我们使用npm进行安装，如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g react-native-cli</span><br></pre></td></tr></table></figure><p> 安装完React Native之后，要想运行或者初始化一个项目，然后运行到模拟器或者真机，我们需要搭建一个Android或者ios开发环境，我这里只介绍android，相信想学习React Native的同学，电脑上都基本上有了Android的开发环境。但是可能会有坑，有一个大坑就是得配置SDK的环境变量：ANDROID_HOME。</p></li><li><strong> SDK环境变量的配置 </strong></li></ol><ul><li>启动Terminal终端工具</li><li>输入cd ~/ 进入当前用户的home目录</li><li><p>创建</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure><p>  打开并编辑：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open .bash_profile</span><br></pre></td></tr></table></figure><p>  在文件中写入以下内容：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$&#123;PATH&#125;:/Users/loonggg/Application/android-sdk-mac_x86/tools:/Users/loonggg/Application/android-sdk-mac_x86/platform-tools</span><br></pre></td></tr></table></figure><p>  友情提示：上述路径，请换成自己电脑上的SDK所在路径</p></li><li><p>执行如下命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source .bash_profile</span><br></pre></td></tr></table></figure></li><li><p>验证：输入adb回车。如果未显示command not found，说明此命令有效，环境便设置完成。</p></li></ul><ol start="6"><li><p><strong> 创建我们的第一个React Native应用 </strong></p><ul><li>初始化项目<br>上面的AwesomeProject这个项目名字，你可以自己随意定义，自己命名，没有限制。</li><li><p>运行项目<br>切换到AwesomeProject的主目录<br>运行项目命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">react-native run-android</span><br><span class="line">react-native run-ios</span><br></pre></td></tr></table></figure><p>执行react-native run-ios 遇到下面错误：<br>xcrun: error: unable to find utility “instruments”, not a developer tool or in PATH</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo xcode-select -s /Applications/Xcode.app/Contents/Developer/</span><br></pre></td></tr></table></figure><p>我们使用编辑器打开和修改app.js文件，调出模拟器菜单键，选择重新载入 js 即可看到变化。<br>执行react-native run-android 遇到下面错误<br>java.lang.RuntimeException: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.<br>解决方法：在工程的根目录下的android文件下新建一个local.properties的文件，在文件中写入<br>sdk.dir = /Users/jinwenfeng/Documents/android/android-sdk-macosx<br>这里就是androidsdk的路径，至此问题一成功解决</p></li><li>安卓打包<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd android &amp;&amp; ./gradlew assembleRelease</span><br></pre></td></tr></table></figure></li></ul></li></ol>]]></content>
-      
-      <categories>
-          
-          <category> react-native </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> react-native </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>typescript</title>
       <link href="/%E5%89%8D%E7%AB%AF/typescript/"/>
       <url>/%E5%89%8D%E7%AB%AF/typescript/</url>
@@ -186,6 +165,27 @@
         <tags>
             
             <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>macOS系统下的React Native 开发环境配置</title>
+      <link href="/react-native/react-native/"/>
+      <url>/react-native/react-native/</url>
+      <content type="html"><![CDATA[<ol><li><p><strong> Homebrew安装 </strong><br>Homebrew是一款自由及开放源代码的软件包管理系统，用以简化Mac OS X系统上的软件安装过程，Homebrew以Ruby语言写成，针对于Mac OS X操作系统自带Ruby的版本。默认安装在/usr/local，由一个核心git版本库构成，以使用户能更新Homebrew。是 OS X 不可或缺的套件管理器。<br>安装之前，你可以先检查一下电脑上是否已经安装了Homebrew，检查方式如下：<br>在终端执行下列命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew -v</span><br></pre></td></tr></table></figure><p> 如果已经安装了，终端会显示版本号。<br> 如果没有安装，那就可以用下面这种方式，进行安装，在终端上直接输入下面的命令即可：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure></li><li><p><strong> node.js安装 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install node &amp;&amp; nvm alias default node</span><br></pre></td></tr></table></figure></li><li><p><strong> 安装watchman 和 flow </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew install watchman</span><br><span class="line">brew install flow</span><br></pre></td></tr></table></figure></li><li><p><strong> 安装React Native </strong><br>我们使用npm进行安装，如下：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g react-native-cli</span><br></pre></td></tr></table></figure><p> 安装完React Native之后，要想运行或者初始化一个项目，然后运行到模拟器或者真机，我们需要搭建一个Android或者ios开发环境，我这里只介绍android，相信想学习React Native的同学，电脑上都基本上有了Android的开发环境。但是可能会有坑，有一个大坑就是得配置SDK的环境变量：ANDROID_HOME。</p></li><li><strong> SDK环境变量的配置 </strong></li></ol><ul><li>启动Terminal终端工具</li><li>输入cd ~/ 进入当前用户的home目录</li><li><p>创建</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch .bash_profile</span><br></pre></td></tr></table></figure><p>  打开并编辑：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open .bash_profile</span><br></pre></td></tr></table></figure><p>  在文件中写入以下内容：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=$&#123;PATH&#125;:/Users/loonggg/Application/android-sdk-mac_x86/tools:/Users/loonggg/Application/android-sdk-mac_x86/platform-tools</span><br></pre></td></tr></table></figure><p>  友情提示：上述路径，请换成自己电脑上的SDK所在路径</p></li><li><p>执行如下命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source .bash_profile</span><br></pre></td></tr></table></figure></li><li><p>验证：输入adb回车。如果未显示command not found，说明此命令有效，环境便设置完成。</p></li></ul><ol start="6"><li><p><strong> 创建我们的第一个React Native应用 </strong></p><ul><li>初始化项目<br>上面的AwesomeProject这个项目名字，你可以自己随意定义，自己命名，没有限制。</li><li><p>运行项目<br>切换到AwesomeProject的主目录<br>运行项目命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">react-native run-android</span><br><span class="line">react-native run-ios</span><br></pre></td></tr></table></figure><p>执行react-native run-ios 遇到下面错误：<br>xcrun: error: unable to find utility “instruments”, not a developer tool or in PATH</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo xcode-select -s /Applications/Xcode.app/Contents/Developer/</span><br></pre></td></tr></table></figure><p>我们使用编辑器打开和修改app.js文件，调出模拟器菜单键，选择重新载入 js 即可看到变化。<br>执行react-native run-android 遇到下面错误<br>java.lang.RuntimeException: SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.<br>解决方法：在工程的根目录下的android文件下新建一个local.properties的文件，在文件中写入<br>sdk.dir = /Users/jinwenfeng/Documents/android/android-sdk-macosx<br>这里就是androidsdk的路径，至此问题一成功解决</p></li><li>安卓打包<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd android &amp;&amp; ./gradlew assembleRelease</span><br></pre></td></tr></table></figure></li></ul></li></ol>]]></content>
+      
+      <categories>
+          
+          <category> react-native </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> react-native </tag>
             
         </tags>
       
@@ -209,6 +209,20 @@
     </entry>
     
     <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <link href="/top/index.html"/>
+      <url>/top/index.html</url>
+      <content type="html"><![CDATA[<p><div id="top"></div></p><script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script><script>AV.initialize("mT2GyRcztNMVd3908I8gV93K-gzGzoHsz", "GHNXV8RrPY2khLARdN0xXAmI");</script><script type="text/javascript">  var time=0  var title=""  var url=""  var query = new AV.Query('Counter');  query.notEqualTo('id',0);  query.descending('time');  query.limit(1000);  query.find().then(function (todo) {    for (var i=0;i<1000;i++){      var result=todo[i].attributes;      time=result.time;      title=result.title;      url=result.url;      // var content="<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://brightyang0801.github.io/"+url+"'>"+title+"</a>"+"</p>";      document.getElementById("top").innerHTML+=content    }  }, function (error) {    console.log("error");  });</script>]]></content>
+    </entry>
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -220,20 +234,6 @@
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
-      <title>top</title>
-      <link href="/top/index.html"/>
-      <url>/top/index.html</url>
-      <content type="html"><![CDATA[<p><div id="top"></div></p><script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script><script>AV.initialize("mT2GyRcztNMVd3908I8gV93K-gzGzoHsz", "GHNXV8RrPY2khLARdN0xXAmI");</script><script type="text/javascript">  var time=0  var title=""  var url=""  var query = new AV.Query('Counter');  query.notEqualTo('id',0);  query.descending('time');  query.limit(1000);  query.find().then(function (todo) {    for (var i=0;i<1000;i++){      var result=todo[i].attributes;      time=result.time;      title=result.title;      url=result.url;      // var content="<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"</p>";      document.getElementById("top").innerHTML+=content    }  }, function (error) {    console.log("error");  });</script>]]></content>
     </entry>
     
   

@@ -205,6 +205,24 @@
   </entry>
   
   <entry>
+    <title>typescript</title>
+    <link href="http://michaelxiang.me/%E5%89%8D%E7%AB%AF/typescript/"/>
+    <id>http://michaelxiang.me/前端/typescript/</id>
+    <published>2018-08-31T13:38:40.000Z</published>
+    <updated>2018-09-04T01:45:35.325Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="前端" scheme="http://michaelxiang.me/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="前端" scheme="http://michaelxiang.me/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>macOS系统下的React Native 开发环境配置</title>
     <link href="http://michaelxiang.me/react-native/react-native/"/>
     <id>http://michaelxiang.me/react-native/react-native/</id>
@@ -227,24 +245,6 @@
     
     
       <category term="react-native" scheme="http://michaelxiang.me/tags/react-native/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>typescript</title>
-    <link href="http://michaelxiang.me/%E5%89%8D%E7%AB%AF/typescript/"/>
-    <id>http://michaelxiang.me/前端/typescript/</id>
-    <published>2018-08-31T13:38:40.000Z</published>
-    <updated>2018-09-04T01:45:35.325Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="前端" scheme="http://michaelxiang.me/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="前端" scheme="http://michaelxiang.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
