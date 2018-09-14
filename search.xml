@@ -108,15 +108,6 @@
     </entry>
     
     <entry>
-      <title>push</title>
-      <link href="/uncategorized/push/"/>
-      <url>/uncategorized/push/</url>
-      <content type="html"><![CDATA[]]></content>
-      
-      
-    </entry>
-    
-    <entry>
       <title>git修改分支名字</title>
       <link href="/git/git/"/>
       <url>/git/git/</url>
@@ -159,27 +150,6 @@
     </entry>
     
     <entry>
-      <title>typescript</title>
-      <link href="/%E5%89%8D%E7%AB%AF/typescript/"/>
-      <url>/%E5%89%8D%E7%AB%AF/typescript/</url>
-      <content type="html"><![CDATA[]]></content>
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 前端 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>macOS系统下的React Native 开发环境配置</title>
       <link href="/react-native/react-native/"/>
       <url>/react-native/react-native/</url>
@@ -195,6 +165,27 @@
         <tags>
             
             <tag> react-native </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>typescript</title>
+      <link href="/%E5%89%8D%E7%AB%AF/typescript/"/>
+      <url>/%E5%89%8D%E7%AB%AF/typescript/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
             
         </tags>
       
@@ -218,9 +209,9 @@
     </entry>
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
@@ -232,17 +223,17 @@
     </entry>
     
     <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
       <title>top</title>
       <link href="/top/index.html"/>
       <url>/top/index.html</url>
       <content type="html"><![CDATA[<p><div id="top"></div></p><script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script><script>AV.initialize("mT2GyRcztNMVd3908I8gV93K-gzGzoHsz", "GHNXV8RrPY2khLARdN0xXAmI");</script><script type="text/javascript">  var time=0  var title=""  var url=""  var query = new AV.Query('Counter');  query.notEqualTo('id',0);  query.descending('time');  query.limit(1000);  query.find().then(function (todo) {    for (var i=0;i<1000;i++){      var result=todo[i].attributes;      time=result.time;      title=result.title;      url=result.url;      // var content="<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"</p>";      document.getElementById("top").innerHTML+=content    }  }, function (error) {    console.log("error");  });</script>]]></content>
-    </entry>
-    
-    <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[]]></content>
     </entry>
     
   
