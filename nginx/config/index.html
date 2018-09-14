@@ -109,7 +109,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="nginx," />
 
 
 
@@ -122,13 +122,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="萌萌哒的童话">
-<meta property="og:url" content="http://michaelxiang.me/categories/git/index.html">
+<meta name="description" content="远程登录服务器 使用ssh命令在终端执行下列命令： 1ssh dev@39.106.111.163 注意使用dev不要使用root  输入密码   进入nginx中 1cd /etc/nginx  查看虚拟主机的目录 1cd sites-avaliable  新建一个conf配置文件在现有的conf文件中拷贝一份cp 现有的某个.conf配置文件   自己新建的文件名字.conf 1cp web">
+<meta name="keywords" content="nginx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="nginx配置">
+<meta property="og:url" content="http://michaelxiang.me/nginx/config/index.html">
 <meta property="og:site_name" content="萌萌哒的童话">
+<meta property="og:description" content="远程登录服务器 使用ssh命令在终端执行下列命令： 1ssh dev@39.106.111.163 注意使用dev不要使用root  输入密码   进入nginx中 1cd /etc/nginx  查看虚拟主机的目录 1cd sites-avaliable  新建一个conf配置文件在现有的conf文件中拷贝一份cp 现有的某个.conf配置文件   自己新建的文件名字.conf 1cp web">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-09-14T03:42:17.434Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="萌萌哒的童话">
+<meta name="twitter:title" content="nginx配置">
+<meta name="twitter:description" content="远程登录服务器 使用ssh命令在终端执行下列命令： 1ssh dev@39.106.111.163 注意使用dev不要使用root  输入密码   进入nginx中 1cd /etc/nginx  查看虚拟主机的目录 1cd sites-avaliable  新建一个conf配置文件在现有的conf文件中拷贝一份cp 现有的某个.conf配置文件   自己新建的文件名字.conf 1cp web">
 
 
 
@@ -158,13 +163,13 @@
 
 
 
-  <link rel="canonical" href="http://michaelxiang.me/categories/git/"/>
+  <link rel="canonical" href="http://michaelxiang.me/nginx/config/"/>
 
 
 
 
 
-  <title>分类: git | 萌萌哒的童话</title>
+  <title>nginx配置 | 萌萌哒的童话</title>
   
 
 
@@ -183,7 +188,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
     <a href="https://mengmengdadetonghuayeah.github.io/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -341,111 +346,293 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>git<small>分类</small>
-        </h1>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://michaelxiang.me/nginx/config/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="周红">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="萌萌哒的童话">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/git/action/" itemprop="url">
-              
-                <span itemprop="name">git常用操作</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">nginx配置</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-03T15:54:13+08:00"
-              content="2018-09-03" >
-          09-03
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-03T15:54:13+08:00">
+                2018-09-03
+              </time>
+            
 
-    </header>
-  </article>
+            
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-14T11:42:17+08:00">
+                2018-09-14
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/nginx/" itemprop="url" rel="index">
+                    <span itemprop="name">nginx</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/nginx/config/" class="leancloud_visitors" data-flag-title="nginx配置">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+                
+             </span>
+              <span>℃</span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  275
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/git/git/" itemprop="url">
-              
-                <span itemprop="name">git修改分支名字</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-03T15:54:13+08:00"
-              content="2018-09-03" >
-          09-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/git/gitConfig/" itemprop="url">
-              
-                <span itemprop="name">git的配置以及使用</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-03T15:54:13+08:00"
-              content="2018-09-03" >
-          09-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <ol>
+<li><p>远程登录服务器 使用ssh命令<br>在终端执行下列命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh dev@39.106.111.163 注意使用dev不要使用root</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>输入密码 </p>
+</li>
+<li><p>进入nginx中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /etc/nginx</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看虚拟主机的目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd sites-avaliable</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>新建一个conf配置文件<br>在现有的conf文件中拷贝一份<br>cp 现有的某个.conf配置文件   自己新建的文件名字.conf</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp web.conf esharing.conf</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>过程中遇到权限问题 请使用sudo!!</p>
+</li>
+<li>先开放你新建的conf的权限<br>命令 chmod 777 ehsharing.conf</li>
+<li>打开新建的conf文件<br>修改server下面的listen监听端口改为80 server name域名和root路径<br>vi esharing.conf 通过i命令实现修改 修改之后点击esc然后:wq保存</li>
+<li>cd sites-avaliable<br>ln -s 源文件目录 建立软连接的目录<br>例如 ln -s /etc/nginx/sites-available/esharing.conf   /etc/nginx/sites-enables/esharing.conf</li>
+<li>你配置的conf中的root路径如果不存在需要新建一个<br>例如 你配置的路径为/data/esharing/web<br>命令为 cd /data/esharing/ <pre><code>mkdir web
+</code></pre></li>
+</ol>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="周红 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="周红 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+    <div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+  
+</div>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/nginx/" rel="tag"><i class="fa fa-tag"></i> nginx</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/nginx/nginx/" rel="next" title="nginx配置">
+                <i class="fa fa-chevron-left"></i> nginx配置
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/git/git/" rel="prev" title="git修改分支名字">
+                git修改分支名字 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -453,6 +640,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNTM4NS8xMTkyMQ=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -750,6 +946,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -778,6 +978,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 

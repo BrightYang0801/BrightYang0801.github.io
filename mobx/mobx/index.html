@@ -109,7 +109,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="mobx," />
 
 
 
@@ -122,13 +122,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="萌萌哒的童话">
-<meta property="og:url" content="http://michaelxiang.me/categories/git/index.html">
+<meta name="description" content="安装相应依赖：mobx 和 mobx-react   1npm i mobx mobx-react --save   安装一些 babel 插件，以支持 ES7 的 decorator 特性:  1npm i babel-plugin-transform-decorators-legacy babel-preset-react-native-stage-0 --save-dev   打开 .b">
+<meta name="keywords" content="mobx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在react-native中使用mobx">
+<meta property="og:url" content="http://michaelxiang.me/mobx/mobx/index.html">
 <meta property="og:site_name" content="萌萌哒的童话">
+<meta property="og:description" content="安装相应依赖：mobx 和 mobx-react   1npm i mobx mobx-react --save   安装一些 babel 插件，以支持 ES7 的 decorator 特性:  1npm i babel-plugin-transform-decorators-legacy babel-preset-react-native-stage-0 --save-dev   打开 .b">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-09-05T06:53:18.640Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="萌萌哒的童话">
+<meta name="twitter:title" content="在react-native中使用mobx">
+<meta name="twitter:description" content="安装相应依赖：mobx 和 mobx-react   1npm i mobx mobx-react --save   安装一些 babel 插件，以支持 ES7 的 decorator 特性:  1npm i babel-plugin-transform-decorators-legacy babel-preset-react-native-stage-0 --save-dev   打开 .b">
 
 
 
@@ -158,13 +163,13 @@
 
 
 
-  <link rel="canonical" href="http://michaelxiang.me/categories/git/"/>
+  <link rel="canonical" href="http://michaelxiang.me/mobx/mobx/"/>
 
 
 
 
 
-  <title>分类: git | 萌萌哒的童话</title>
+  <title>在react-native中使用mobx | 萌萌哒的童话</title>
   
 
 
@@ -183,7 +188,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
     <a href="https://mengmengdadetonghuayeah.github.io/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -341,111 +346,319 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block category">
-
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>git<small>分类</small>
-        </h1>
-      </div>
-
-      
-        
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://michaelxiang.me/mobx/mobx/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="周红">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="萌萌哒的童话">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/git/action/" itemprop="url">
-              
-                <span itemprop="name">git常用操作</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">在react-native中使用mobx</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-03T15:54:13+08:00"
-              content="2018-09-03" >
-          09-03
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-03T15:54:13+08:00">
+                2018-09-03
+              </time>
+            
 
-    </header>
-  </article>
+            
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-05T14:53:18+08:00">
+                2018-09-05
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/mobx/" itemprop="url" rel="index">
+                    <span itemprop="name">mobx</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/mobx/mobx/" class="leancloud_visitors" data-flag-title="在react-native中使用mobx">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+                
+             </span>
+              <span>℃</span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  735
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  4
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/git/git/" itemprop="url">
-              
-                <span itemprop="name">git修改分支名字</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-03T15:54:13+08:00"
-              content="2018-09-03" >
-          09-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
 
       
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/git/gitConfig/" itemprop="url">
-              
-                <span itemprop="name">git的配置以及使用</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-03T15:54:13+08:00"
-              content="2018-09-03" >
-          09-03
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+        <ol>
+<li><p><strong> 安装相应依赖：mobx 和 mobx-react </strong></p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i mobx mobx-react --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong> 安装一些 babel 插件，以支持 ES7 的 decorator 特性: </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i babel-plugin-transform-decorators-legacy babel-preset-react-native-stage-0 --save-dev</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong> 打开 .babelrc 没有就创建一个，配置 babel 插件: </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch .babelrc</span><br></pre></td></tr></table></figure>
+<p><strong> 写入 </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&apos;presets&apos;: [&apos;react-native&apos;],</span><br><span class="line">&apos;plugins&apos;: [&apos;transform-decorators-legacy&apos;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong> 补充:ES7 装饰器语法在编译器可能会报错；我这里用的是 vscode，分享解决办法： </strong></p>
+<ol>
+<li>找到 首选项 &gt; 设置 &gt; 工作区设置;</li>
+<li>加入以下代码：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;javascript.implicitProjectConfig.experimentalDecorators&quot;: true</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><p><strong> 加入 mobx </strong></p>
+<ol>
+<li>根目录下新建 js 文件夹； js 下新建 store 文件夹；</li>
+<li>store 下新建 index.js 作用是合并每个 store 到一个 store 中去，最终通过Provider {…store}方式注入App</li>
+<li><p>分别在 store 下新建几个 js，示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">class HomeStore &#123;</span><br><span class="line">@observable text; // 注册变量，使其成为可检测的</span><br><span class="line">@observable num;</span><br><span class="line">constructor() &#123;</span><br><span class="line">this.num = 0; // 初始化变量，可以定义默认值</span><br><span class="line">this.text = &quot;Hello, this is homePage!!!&quot;;</span><br><span class="line">&#125;</span><br><span class="line">@action // 方法推荐用箭头函数的形式</span><br><span class="line"> plus = () =&gt; &#123;</span><br><span class="line"> this.num += 1;</span><br><span class="line"> &#125;;</span><br><span class="line"></span><br><span class="line">@action</span><br><span class="line"> minus = () =&gt; &#123;</span><br><span class="line"> this.num -= 1; </span><br><span class="line"> &#125;;</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line">const homeStore = new HomeStore();</span><br><span class="line"></span><br><span class="line">export &#123; homeStore &#125;;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">// user</span><br><span class="line">import &#123; observable, action &#125; from &quot;mobx&quot;;</span><br><span class="line"></span><br><span class="line">class UserStore &#123;</span><br><span class="line">  @observable userInfo;</span><br><span class="line">  @observable text;</span><br><span class="line"></span><br><span class="line">  constructor() &#123;</span><br><span class="line">    this.userInfo = &quot;123&quot;;</span><br><span class="line">    this.text = &quot;Hello, this is UserPage!!!&quot;;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  @action</span><br><span class="line">  getListData = () =&gt; &#123;</span><br><span class="line">    fetch(`http://yapi.demo.qunar.com/mock/5228/record/list`)</span><br><span class="line">      .then(</span><br><span class="line">        action(&quot;fetchRes&quot;, res =&gt; &#123;</span><br><span class="line">          return res.json();</span><br><span class="line">        &#125;)</span><br><span class="line">      )</span><br><span class="line">      .then(</span><br><span class="line">        action(&quot;fetchSuccess&quot;, data =&gt; &#123;</span><br><span class="line">          return (this.userInfo = data);</span><br><span class="line">        &#125;)</span><br><span class="line">      )</span><br><span class="line">      .catch(</span><br><span class="line">        action(&quot;fetchError&quot;, e =&gt; &#123;</span><br><span class="line">          console.log(e.message);</span><br><span class="line">        &#125;)</span><br><span class="line">      );</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">const userStore = new UserStore();</span><br><span class="line"></span><br><span class="line">export &#123; userStore &#125;;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><p><strong> 通过index文件合并 </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import &#123; homeStore &#125; from &quot;./home&quot;;</span><br><span class="line">import &#123; userStore &#125; from &quot;./user&quot;;</span><br><span class="line"></span><br><span class="line">const store = &#123; homeStore, userStore &#125;;</span><br><span class="line"></span><br><span class="line">export default store;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<ol start="6">
+<li><strong> 在组件中使用mobx </strong><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">  import &#123; observer, inject &#125; from &quot;mobx-react&quot;</span><br><span class="line">  @inject([&quot;homeStore&quot;]) // 注入对应的store</span><br><span class="line">  @observer // 监听当前组件</span><br><span class="line">  class HomeScreen extends Component &#123;</span><br><span class="line">  constructor(props) &#123;</span><br><span class="line">    super(props);</span><br><span class="line">    this.store = this.props.homeStore; //通过props来导入访问已注入的store</span><br><span class="line">    this.state = &#123;</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  render() &#123;</span><br><span class="line">    const &#123; text, num &#125; = this.store;</span><br><span class="line">    return (</span><br><span class="line">      &lt;Container&gt;</span><br><span class="line">        &lt;Headers </span><br><span class="line">        title=&quot;首页&quot; </span><br><span class="line">        type=&apos;index&apos; </span><br><span class="line">        navigation=&#123;this.props.navigation&#125;</span><br><span class="line">        /&gt;</span><br><span class="line">        &lt;Text&gt;&#123;text&#125;&lt;/Text&gt;</span><br><span class="line">        &lt;Button primary onPress=&#123;() =&gt; this.store.plus()&#125;&gt;</span><br><span class="line">          &lt;Text&gt;add&lt;/Text&gt;</span><br><span class="line">        &lt;/Button&gt;</span><br><span class="line">        &lt;Text&gt;&#123;num&#125;&lt;/Text&gt;</span><br><span class="line">        &lt;Button primary onPress=&#123;() =&gt; this.store.minus()&#125;&gt;</span><br><span class="line">          &lt;Text&gt;Minu&lt;/Text&gt;</span><br><span class="line">        &lt;/Button&gt;</span><br><span class="line">      &lt;/Container&gt;</span><br><span class="line">    );</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">export default HomeScreen;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<ol start="7">
+<li><p><strong> 目前组件中还拿不到当前组件的store，接下来注入store；</strong><br>在初始化的项目结构中，项目运行的入口文件是index.js,注册了同级目录下的App.js;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">// index.js</span><br><span class="line"></span><br><span class="line">import &#123; AppRegistry &#125; from &apos;react-native&apos;;</span><br><span class="line">import App from &apos;./App&apos;;</span><br><span class="line"></span><br><span class="line">AppRegistry.registerComponent(&apos;demo&apos;, () =&gt; App);</span><br></pre></td></tr></table></figure>
+<p>由于需要在App.js上套入store 所以改写结构，</p>
+<ol>
+<li><p>新建setup.js文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">import React from &quot;react&quot;;</span><br><span class="line">import &#123; Provider &#125; from &quot;mobx-react&quot;;</span><br><span class="line">import App from &quot;./App&quot;;</span><br><span class="line">import store from &quot;./store&quot;;</span><br><span class="line"></span><br><span class="line">export default function setup() &#123;</span><br><span class="line">  class Root extends React.Component &#123;</span><br><span class="line">    render() &#123;</span><br><span class="line">      return (</span><br><span class="line">        &lt;Provider &#123;...store&#125;&gt;</span><br><span class="line">          &lt;App /&gt;</span><br><span class="line">        &lt;/Provider&gt;</span><br><span class="line">      );</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  return Root;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>修改index启动页代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">import &#123; AppRegistry &#125; from &apos;react-native&apos;;</span><br><span class="line">import setup from &quot;./js/setup&quot;;</span><br><span class="line"></span><br><span class="line">AppRegistry.registerComponent(&apos;******&apos;, () =&gt; setup());</span><br></pre></td></tr></table></figure></li>
+</ol>
+</li>
+</ol>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="周红 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="周红 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+    <div>
+  
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+  
+</div>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/mobx/" rel="tag"><i class="fa fa-tag"></i> mobx</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/git/gitConfig/" rel="next" title="git的配置以及使用">
+                <i class="fa fa-chevron-left"></i> git的配置以及使用
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/前端/sass/" rel="prev" title="create-react-app如何使用sass">
+                create-react-app如何使用sass <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -453,6 +666,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNTM4NS8xMTkyMQ=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -750,6 +972,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -778,6 +1004,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 

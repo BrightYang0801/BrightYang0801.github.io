@@ -2,9 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://michaelxiang.me/git/gitConfig/</loc>
+    
+    <lastmod>2018-09-14T06:26:52.514Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/git/action/</loc>
+    
+    <lastmod>2018-09-14T06:24:39.304Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/uncategorized/push/</loc>
+    
+    <lastmod>2018-09-14T06:06:46.281Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/%E5%89%8D%E7%AB%AF/sass/</loc>
+    
+    <lastmod>2018-09-14T03:55:07.520Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/react-native/react-native/</loc>
+    
+    <lastmod>2018-09-14T03:47:39.142Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/nginx/config/</loc>
+    
+    <lastmod>2018-09-14T03:42:17.434Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/nginx/nginx/</loc>
+    
+    <lastmod>2018-09-14T03:27:32.839Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/mobx/mobx/</loc>
+    
+    <lastmod>2018-09-05T06:53:18.640Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://michaelxiang.me/git/git/</loc>
     
-    <lastmod>2018-09-04T01:57:55.701Z</lastmod>
+    <lastmod>2018-09-05T06:24:36.302Z</lastmod>
     
   </url>
   
@@ -37,13 +93,6 @@
   </url>
   
   <url>
-    <loc>http://michaelxiang.me/404.html</loc>
-    
-    <lastmod>2018-09-03T01:44:45.022Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://michaelxiang.me/404/index.html</loc>
     
     <lastmod>2018-09-03T01:44:45.022Z</lastmod>
@@ -52,6 +101,13 @@
   
   <url>
     <loc>http://michaelxiang.me/about/index.html</loc>
+    
+    <lastmod>2018-09-03T01:44:45.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/404.html</loc>
     
     <lastmod>2018-09-03T01:44:45.022Z</lastmod>
     

@@ -122,18 +122,18 @@
 
 
 
-<meta name="description" content="git 修改分支名称假设分支名称为 oldName想要修改为 newName   本地分支重命名(还没有推送到远程)  123git branch -m oldName newNamegit branch -m oldName newNamegit push --delete origin oldName   远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同)">
+<meta name="description" content="git 修改分支名称假设分支名称为 oldName想要修改为 newName   本地分支重命名(还没有推送到远程)   1git branch -m oldName newName   远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) a.  重命名远程分支对应的本地分支  1git branch -m oldName newName b.  删除远程分支  1git pus">
 <meta name="keywords" content="git">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git">
+<meta property="og:title" content="git修改分支名字">
 <meta property="og:url" content="http://michaelxiang.me/git/git/index.html">
 <meta property="og:site_name" content="萌萌哒的童话">
-<meta property="og:description" content="git 修改分支名称假设分支名称为 oldName想要修改为 newName   本地分支重命名(还没有推送到远程)  123git branch -m oldName newNamegit branch -m oldName newNamegit push --delete origin oldName   远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同)">
+<meta property="og:description" content="git 修改分支名称假设分支名称为 oldName想要修改为 newName   本地分支重命名(还没有推送到远程)   1git branch -m oldName newName   远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) a.  重命名远程分支对应的本地分支  1git branch -m oldName newName b.  删除远程分支  1git pus">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-04T01:57:55.701Z">
+<meta property="og:updated_time" content="2018-09-05T06:24:36.302Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="git">
-<meta name="twitter:description" content="git 修改分支名称假设分支名称为 oldName想要修改为 newName   本地分支重命名(还没有推送到远程)  123git branch -m oldName newNamegit branch -m oldName newNamegit push --delete origin oldName   远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同)">
+<meta name="twitter:title" content="git修改分支名字">
+<meta name="twitter:description" content="git 修改分支名称假设分支名称为 oldName想要修改为 newName   本地分支重命名(还没有推送到远程)   1git branch -m oldName newName   远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) a.  重命名远程分支对应的本地分支  1git branch -m oldName newName b.  删除远程分支  1git pus">
 
 
 
@@ -169,7 +169,7 @@
 
 
 
-  <title>git | 萌萌哒的童话</title>
+  <title>git修改分支名字 | 萌萌哒的童话</title>
   
 
 
@@ -377,7 +377,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">git</h1>
+          <h1 class="post-title" itemprop="name headline">git修改分支名字</h1>
         
 
         <div class="post-meta">
@@ -405,8 +405,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-04T09:57:55+08:00">
-                2018-09-04
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-05T14:24:36+08:00">
+                2018-09-05
               </time>
             
           </span>
@@ -441,7 +441,7 @@
 
           
           
-             <span id="/git/git/" class="leancloud_visitors" data-flag-title="git">
+             <span id="/git/git/" class="leancloud_visitors" data-flag-title="git修改分支名字">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -473,7 +473,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  86
+                  149
                 </span>
               
 
@@ -512,10 +512,18 @@
       
         <h1 id="git-修改分支名称"><a href="#git-修改分支名称" class="headerlink" title="git 修改分支名称"></a>git 修改分支名称</h1><p>假设分支名称为 oldName<br>想要修改为 newName</p>
 <ol>
-<li><p><strong> 本地分支重命名(还没有推送到远程) </strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br><span class="line">git branch -m oldName newName</span><br><span class="line">git push --delete origin oldName</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong> 远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) </strong></p>
+<li><strong> 本地分支重命名(还没有推送到远程) </strong></li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li><p><strong> 远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) </strong><br>a. <strong> 重命名远程分支对应的本地分支 </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure>
+<p>b. <strong> 删除远程分支 </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --delete origin oldName</span><br></pre></td></tr></table></figure>
+<p>c. <strong> 上传新命名的本地分支 </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin newName</span><br></pre></td></tr></table></figure>
+<p>d. <strong> 把修改后的本地分支与远程分支关联 </strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --set-upstream-to origin/newName</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 
@@ -585,8 +593,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/前端/typescript/" rel="next" title="typescript">
-                <i class="fa fa-chevron-left"></i> typescript
+              <a href="/nginx/config/" rel="next" title="nginx配置">
+                <i class="fa fa-chevron-left"></i> nginx配置
               </a>
             
           </div>
@@ -594,6 +602,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/git/action/" rel="prev" title="git常用操作">
+                git常用操作 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -679,7 +691,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -690,7 +702,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -701,7 +713,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -772,7 +784,6 @@
 
         </div>
       </section>
-
       
       <!--noindex-->
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
@@ -794,6 +805,10 @@
       
 
     </div>
+     <div id="music163player">
+         <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="//music.163.com/outchain/player?type=2&id=38358214&auto=0&height=66">
+         </iframe>
+      </div>
   </aside>
 
 
@@ -814,7 +829,7 @@
 </div>
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共86字</span>
+  <span class="post-count">博客全站共2.5k字</span>
 </div>
 
 

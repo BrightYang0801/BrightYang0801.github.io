@@ -4,11 +4,166 @@
 
     
   <url>
-    <loc>http://michaelxiang.me/git/git/</loc>
-    <lastmod>2018-09-04T01:57:55.701Z</lastmod>
+    <loc>http://michaelxiang.me/git/gitConfig/</loc>
+    <lastmod>2018-09-14T06:26:52.514Z</lastmod>
     <data>
         <display>
-        <title>git</title>
+        <title>git的配置以及使用</title>
+        <pubTime>2018-09-03T07:54:13.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://michaelxiang.me/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/git/action/</loc>
+    <lastmod>2018-09-14T06:24:39.304Z</lastmod>
+    <data>
+        <display>
+        <title>git常用操作</title>
+        <pubTime>2018-09-03T07:54:13.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://michaelxiang.me/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/uncategorized/push/</loc>
+    <lastmod>2018-09-14T06:06:46.281Z</lastmod>
+    <data>
+        <display>
+        <title>push</title>
+        <pubTime>2018-09-14T06:06:46.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/%E5%89%8D%E7%AB%AF/sass/</loc>
+    <lastmod>2018-09-14T03:55:07.520Z</lastmod>
+    <data>
+        <display>
+        <title>create-react-app如何使用sass</title>
+        <pubTime>2018-09-03T07:54:13.000Z</pubTime>
+        
+        <tag>前端</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="http://michaelxiang.me/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/react-native/react-native/</loc>
+    <lastmod>2018-09-14T03:47:39.142Z</lastmod>
+    <data>
+        <display>
+        <title>macOS系统下的React Native 开发环境配置</title>
+        <pubTime>2018-08-31T13:38:40.000Z</pubTime>
+        
+        <tag>react-native</tag>
+         
+         
+           
+             
+              <breadCrumb title="react-native" url="http://michaelxiang.me/categories/react-native/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/nginx/config/</loc>
+    <lastmod>2018-09-14T03:42:17.434Z</lastmod>
+    <data>
+        <display>
+        <title>nginx配置</title>
+        <pubTime>2018-09-03T07:54:13.000Z</pubTime>
+        
+        <tag>nginx</tag>
+         
+         
+           
+             
+              <breadCrumb title="nginx" url="http://michaelxiang.me/categories/nginx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/nginx/nginx/</loc>
+    <lastmod>2018-09-14T03:27:32.839Z</lastmod>
+    <data>
+        <display>
+        <title>nginx配置</title>
+        <pubTime>2018-09-03T07:54:13.000Z</pubTime>
+        
+        <tag>nginx</tag>
+         
+         
+           
+             
+              <breadCrumb title="nginx" url="http://michaelxiang.me/categories/nginx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/mobx/mobx/</loc>
+    <lastmod>2018-09-05T06:53:18.640Z</lastmod>
+    <data>
+        <display>
+        <title>在react-native中使用mobx</title>
+        <pubTime>2018-09-03T07:54:13.000Z</pubTime>
+        
+        <tag>mobx</tag>
+         
+         
+           
+             
+              <breadCrumb title="mobx" url="http://michaelxiang.me/categories/mobx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://michaelxiang.me/git/git/</loc>
+    <lastmod>2018-09-05T06:24:36.302Z</lastmod>
+    <data>
+        <display>
+        <title>git修改分支名字</title>
         <pubTime>2018-09-03T07:54:13.000Z</pubTime>
         
         <tag>git</tag>
