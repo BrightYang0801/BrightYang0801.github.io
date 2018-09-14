@@ -3,40 +3,10 @@
   
     
     <entry>
-      <title>push</title>
-      <link href="/uncategorized/push/"/>
-      <url>/uncategorized/push/</url>
-      <content type="html"><![CDATA[]]></content>
-      
-      
-    </entry>
-    
-    <entry>
       <title>git常用操作</title>
       <link href="/git/action/"/>
       <url>/git/action/</url>
       <content type="html"><![CDATA[<ol><li><p>多人开发需要创建分支<br>在终端执行下列命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b create_product //创建分支 create_product 为创建的分支的名字</span><br><span class="line">git add .</span><br><span class="line">git commit -m &apos;init&apos;</span><br><span class="line">git push  复制出来的git push 链接</span><br></pre></td></tr></table></figure><p><img src="https://note.youdao.com/yws/api/personal/file/WEB65905f73ff8c6c0f882b952f48417526?method=download&amp;shareKey=400be717732b86e49cdaf9a2013bfcfa" alt="image"></p></li><li><p>切换分支</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch -a</span><br><span class="line">git checkout 你要去的分支的名字</span><br></pre></td></tr></table></figure></li><li><p>将其他分支的修改合并到当前分支</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git merge Invoicing //Invoicing分支的名字</span><br><span class="line">git status</span><br><span class="line">git add —a</span><br><span class="line">git commit</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></li><li><p>拉取主干代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin develop //develop 为主分支名字</span><br></pre></td></tr></table></figure></li></ol>]]></content>
-      
-      <categories>
-          
-          <category> git </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>git修改分支名字</title>
-      <link href="/git/git/"/>
-      <url>/git/git/</url>
-      <content type="html"><![CDATA[<h1 id="git-修改分支名称"><a href="#git-修改分支名称" class="headerlink" title="git 修改分支名称"></a>git 修改分支名称</h1><p>假设分支名称为 oldName<br>想要修改为 newName</p><ol><li><strong> 本地分支重命名(还没有推送到远程) </strong></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><ol start="2"><li><p><strong> 远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) </strong><br>a. <strong> 重命名远程分支对应的本地分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><p>b. <strong> 删除远程分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --delete origin oldName</span><br></pre></td></tr></table></figure><p>c. <strong> 上传新命名的本地分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin newName</span><br></pre></td></tr></table></figure><p>d. <strong> 把修改后的本地分支与远程分支关联 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --set-upstream-to origin/newName</span><br></pre></td></tr></table></figure></li></ol>]]></content>
       
       <categories>
           
@@ -69,6 +39,27 @@
         <tags>
             
             <tag> nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>git的配置以及使用</title>
+      <link href="/git/gitConfig/"/>
+      <url>/git/gitConfig/</url>
+      <content type="html"><![CDATA[<ol><li><p><strong> 配置用户 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">zhouhongdeAir:~ zhouhong$ git config --global user.name &quot;zhouhong&quot; //修改你的用户名</span><br><span class="line">zhouhongdeAir:~ zhouhong$ git config --global user.email &quot;zhouhong@dongwu-inc.com&quot;//修改你的邮箱</span><br><span class="line">zhouhongdeAir:~ zhouhong$ ssh-keygen -t rsa -C &quot;你的邮箱地址&quot;</span><br></pre></td></tr></table></figure></li><li><p><strong> 获取SSH公钥信息 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">zhouhongdeAir:~ zhouhong$ ls ~/.ssh      根目录查看是否有 ssh</span><br><span class="line">id_rsa id_rsa.pub    文件</span><br><span class="line">zhouhongdeAir:~ zhouhong$ cd id_ras.pub</span><br><span class="line">zhouhongdeAir:~ zhouhong$ cat ~/.ssh/id_rsa.pub </span><br><span class="line">通过cat命令。在命令行中敲入cat ~/.ssh/id_rsa.pub ，回车执行后命令行界面中会显示id_rsa.pub文件里的内容，复制。</span><br></pre></td></tr></table></figure></li><li><p><strong> 添加SSH公钥到gitlab </strong></p><ul><li>打开gitlab的profile Setting页面，选择SSH Keys</li><li>添加SSH公钥。填写Title和Key，其中Title是Key的描述信息，Key是上面复制的SSH公钥的内容，直接粘贴到输入框中保存即可。</li></ul></li></ol>]]></content>
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
             
         </tags>
       
@@ -117,6 +108,36 @@
     </entry>
     
     <entry>
+      <title>push</title>
+      <link href="/uncategorized/push/"/>
+      <url>/uncategorized/push/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>git修改分支名字</title>
+      <link href="/git/git/"/>
+      <url>/git/git/</url>
+      <content type="html"><![CDATA[<h1 id="git-修改分支名称"><a href="#git-修改分支名称" class="headerlink" title="git 修改分支名称"></a>git 修改分支名称</h1><p>假设分支名称为 oldName<br>想要修改为 newName</p><ol><li><strong> 本地分支重命名(还没有推送到远程) </strong></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><ol start="2"><li><p><strong> 远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) </strong><br>a. <strong> 重命名远程分支对应的本地分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><p>b. <strong> 删除远程分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --delete origin oldName</span><br></pre></td></tr></table></figure><p>c. <strong> 上传新命名的本地分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin newName</span><br></pre></td></tr></table></figure><p>d. <strong> 把修改后的本地分支与远程分支关联 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --set-upstream-to origin/newName</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>在react-native中使用mobx</title>
       <link href="/mobx/mobx/"/>
       <url>/mobx/mobx/</url>
@@ -138,21 +159,21 @@
     </entry>
     
     <entry>
-      <title>git的配置以及使用</title>
-      <link href="/git/gitConfig/"/>
-      <url>/git/gitConfig/</url>
-      <content type="html"><![CDATA[<h1 id="git-修改分支名称"><a href="#git-修改分支名称" class="headerlink" title="git 修改分支名称"></a>git 修改分支名称</h1><p>假设分支名称为 oldName<br>想要修改为 newName</p><ol><li><strong> 本地分支重命名(还没有推送到远程) </strong></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><ol start="2"><li><p><strong> 远程分支重命名 (已经推送远程-假设本地分支和远程对应分支名称相同) </strong><br>a. <strong> 重命名远程分支对应的本地分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -m oldName newName</span><br></pre></td></tr></table></figure><p>b. <strong> 删除远程分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --delete origin oldName</span><br></pre></td></tr></table></figure><p>c. <strong> 上传新命名的本地分支 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin newName</span><br></pre></td></tr></table></figure><p>d. <strong> 把修改后的本地分支与远程分支关联 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch --set-upstream-to origin/newName</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      <title>typescript</title>
+      <link href="/%E5%89%8D%E7%AB%AF/typescript/"/>
+      <url>/%E5%89%8D%E7%AB%AF/typescript/</url>
+      <content type="html"><![CDATA[]]></content>
       
       <categories>
           
-          <category> git </category>
+          <category> 前端 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> git </tag>
+            <tag> 前端 </tag>
             
         </tags>
       
@@ -174,27 +195,6 @@
         <tags>
             
             <tag> react-native </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>typescript</title>
-      <link href="/%E5%89%8D%E7%AB%AF/typescript/"/>
-      <url>/%E5%89%8D%E7%AB%AF/typescript/</url>
-      <content type="html"><![CDATA[]]></content>
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 前端 </tag>
             
         </tags>
       
@@ -225,9 +225,9 @@
     </entry>
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
@@ -239,9 +239,9 @@
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
