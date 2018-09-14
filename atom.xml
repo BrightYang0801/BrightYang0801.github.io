@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://brightyang0801.github.io/"/>
+  <link href="http://michaelxiang.me/"/>
   <updated>2018-09-14T06:41:28.922Z</updated>
-  <id>https://brightyang0801.github.io/</id>
+  <id>http://michaelxiang.me/</id>
   
   <author>
     <name>周红</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>git常用操作</title>
-    <link href="https://brightyang0801.github.io/git/action/"/>
-    <id>https://brightyang0801.github.io/git/action/</id>
+    <link href="http://michaelxiang.me/git/action/"/>
+    <id>http://michaelxiang.me/git/action/</id>
     <published>2018-09-14T07:54:13.000Z</published>
     <updated>2018-09-14T06:41:28.922Z</updated>
     
@@ -36,17 +36,17 @@
     
     </summary>
     
-      <category term="git" scheme="https://brightyang0801.github.io/categories/git/"/>
+      <category term="git" scheme="http://michaelxiang.me/categories/git/"/>
     
     
-      <category term="git" scheme="https://brightyang0801.github.io/tags/git/"/>
+      <category term="git" scheme="http://michaelxiang.me/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>nginx配置</title>
-    <link href="https://brightyang0801.github.io/nginx/config/"/>
-    <id>https://brightyang0801.github.io/nginx/config/</id>
+    <link href="http://michaelxiang.me/nginx/config/"/>
+    <id>http://michaelxiang.me/nginx/config/</id>
     <published>2018-09-14T07:54:12.000Z</published>
     <updated>2018-09-14T07:06:31.347Z</updated>
     
@@ -63,17 +63,17 @@
     
     </summary>
     
-      <category term="nginx" scheme="https://brightyang0801.github.io/categories/nginx/"/>
+      <category term="nginx" scheme="http://michaelxiang.me/categories/nginx/"/>
     
     
-      <category term="nginx" scheme="https://brightyang0801.github.io/tags/nginx/"/>
+      <category term="nginx" scheme="http://michaelxiang.me/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>git的配置以及使用</title>
-    <link href="https://brightyang0801.github.io/git/gitConfig/"/>
-    <id>https://brightyang0801.github.io/git/gitConfig/</id>
+    <link href="http://michaelxiang.me/git/gitConfig/"/>
+    <id>http://michaelxiang.me/git/gitConfig/</id>
     <published>2018-09-14T07:54:10.000Z</published>
     <updated>2018-09-14T07:06:39.939Z</updated>
     
@@ -90,17 +90,17 @@
     
     </summary>
     
-      <category term="git" scheme="https://brightyang0801.github.io/categories/git/"/>
+      <category term="git" scheme="http://michaelxiang.me/categories/git/"/>
     
     
-      <category term="git" scheme="https://brightyang0801.github.io/tags/git/"/>
+      <category term="git" scheme="http://michaelxiang.me/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>nginx配置</title>
-    <link href="https://brightyang0801.github.io/nginx/nginx/"/>
-    <id>https://brightyang0801.github.io/nginx/nginx/</id>
+    <link href="http://michaelxiang.me/nginx/nginx/"/>
+    <id>http://michaelxiang.me/nginx/nginx/</id>
     <published>2018-09-14T07:54:08.000Z</published>
     <updated>2018-09-14T07:06:50.966Z</updated>
     
@@ -117,17 +117,17 @@
     
     </summary>
     
-      <category term="nginx" scheme="https://brightyang0801.github.io/categories/nginx/"/>
+      <category term="nginx" scheme="http://michaelxiang.me/categories/nginx/"/>
     
     
-      <category term="nginx" scheme="https://brightyang0801.github.io/tags/nginx/"/>
+      <category term="nginx" scheme="http://michaelxiang.me/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>create-react-app如何使用sass</title>
-    <link href="https://brightyang0801.github.io/%E5%89%8D%E7%AB%AF/sass/"/>
-    <id>https://brightyang0801.github.io/前端/sass/</id>
+    <link href="http://michaelxiang.me/%E5%89%8D%E7%AB%AF/sass/"/>
+    <id>http://michaelxiang.me/前端/sass/</id>
     <published>2018-09-14T07:54:07.000Z</published>
     <updated>2018-09-14T07:06:57.829Z</updated>
     
@@ -144,17 +144,17 @@
     
     </summary>
     
-      <category term="前端" scheme="https://brightyang0801.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://michaelxiang.me/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="前端" scheme="https://brightyang0801.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://michaelxiang.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>git修改分支名字</title>
-    <link href="https://brightyang0801.github.io/git/git/"/>
-    <id>https://brightyang0801.github.io/git/git/</id>
+    <link href="http://michaelxiang.me/git/git/"/>
+    <id>http://michaelxiang.me/git/git/</id>
     <published>2018-09-03T07:54:11.000Z</published>
     <updated>2018-09-14T07:06:36.277Z</updated>
     
@@ -170,17 +170,17 @@
     
     </summary>
     
-      <category term="git" scheme="https://brightyang0801.github.io/categories/git/"/>
+      <category term="git" scheme="http://michaelxiang.me/categories/git/"/>
     
     
-      <category term="git" scheme="https://brightyang0801.github.io/tags/git/"/>
+      <category term="git" scheme="http://michaelxiang.me/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>在react-native中使用mobx</title>
-    <link href="https://brightyang0801.github.io/mobx/mobx/"/>
-    <id>https://brightyang0801.github.io/mobx/mobx/</id>
+    <link href="http://michaelxiang.me/mobx/mobx/"/>
+    <id>http://michaelxiang.me/mobx/mobx/</id>
     <published>2018-09-03T07:54:09.000Z</published>
     <updated>2018-09-14T07:06:47.062Z</updated>
     
@@ -197,17 +197,17 @@
     
     </summary>
     
-      <category term="mobx" scheme="https://brightyang0801.github.io/categories/mobx/"/>
+      <category term="mobx" scheme="http://michaelxiang.me/categories/mobx/"/>
     
     
-      <category term="mobx" scheme="https://brightyang0801.github.io/tags/mobx/"/>
+      <category term="mobx" scheme="http://michaelxiang.me/tags/mobx/"/>
     
   </entry>
   
   <entry>
     <title>typescript</title>
-    <link href="https://brightyang0801.github.io/%E5%89%8D%E7%AB%AF/typescript/"/>
-    <id>https://brightyang0801.github.io/前端/typescript/</id>
+    <link href="http://michaelxiang.me/%E5%89%8D%E7%AB%AF/typescript/"/>
+    <id>http://michaelxiang.me/前端/typescript/</id>
     <published>2018-08-31T13:38:40.000Z</published>
     <updated>2018-09-04T01:45:35.325Z</updated>
     
@@ -215,17 +215,17 @@
     
     </summary>
     
-      <category term="前端" scheme="https://brightyang0801.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://michaelxiang.me/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="前端" scheme="https://brightyang0801.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://michaelxiang.me/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>macOS系统下的React Native 开发环境配置</title>
-    <link href="https://brightyang0801.github.io/react-native/react-native/"/>
-    <id>https://brightyang0801.github.io/react-native/react-native/</id>
+    <link href="http://michaelxiang.me/react-native/react-native/"/>
+    <id>http://michaelxiang.me/react-native/react-native/</id>
     <published>2018-08-31T13:38:40.000Z</published>
     <updated>2018-09-14T03:47:39.142Z</updated>
     
@@ -241,10 +241,10 @@
     
     </summary>
     
-      <category term="react-native" scheme="https://brightyang0801.github.io/categories/react-native/"/>
+      <category term="react-native" scheme="http://michaelxiang.me/categories/react-native/"/>
     
     
-      <category term="react-native" scheme="https://brightyang0801.github.io/tags/react-native/"/>
+      <category term="react-native" scheme="http://michaelxiang.me/tags/react-native/"/>
     
   </entry>
   
