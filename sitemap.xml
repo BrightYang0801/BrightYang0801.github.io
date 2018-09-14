@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://michaelxiang.me/top/index.html</loc>
+    
+    <lastmod>2018-09-14T07:24:11.488Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://michaelxiang.me/%E5%89%8D%E7%AB%AF/sass/</loc>
     
     <lastmod>2018-09-14T07:06:57.829Z</lastmod>
@@ -44,13 +51,6 @@
   </url>
   
   <url>
-    <loc>http://michaelxiang.me/top/index.html</loc>
-    
-    <lastmod>2018-09-14T06:50:05.158Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://michaelxiang.me/git/action/</loc>
     
     <lastmod>2018-09-14T06:41:28.922Z</lastmod>
@@ -86,13 +86,6 @@
   </url>
   
   <url>
-    <loc>http://michaelxiang.me/404.html</loc>
-    
-    <lastmod>2018-09-03T01:44:45.022Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://michaelxiang.me/404/index.html</loc>
     
     <lastmod>2018-09-03T01:44:45.022Z</lastmod>
@@ -101,6 +94,13 @@
   
   <url>
     <loc>http://michaelxiang.me/about/index.html</loc>
+    
+    <lastmod>2018-09-03T01:44:45.022Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://michaelxiang.me/404.html</loc>
     
     <lastmod>2018-09-03T01:44:45.022Z</lastmod>
     
