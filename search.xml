@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title>git常用操作</title>
+      <title>git</title>
       <link href="/git/action/"/>
       <url>/git/action/</url>
       <content type="html"><![CDATA[<ol><li><p>多人开发需要创建分支<br>在终端执行下列命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b create_product //创建分支 create_product 为创建的分支的名字</span><br><span class="line">git add .</span><br><span class="line">git commit -m &apos;init&apos;</span><br><span class="line">git push  复制出来的git push 链接</span><br></pre></td></tr></table></figure><p><img src="https://note.youdao.com/yws/api/personal/file/WEB65905f73ff8c6c0f882b952f48417526?method=download&amp;shareKey=400be717732b86e49cdaf9a2013bfcfa" alt="image"></p></li><li><p>切换分支</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch -a</span><br><span class="line">git checkout 你要去的分支的名字</span><br></pre></td></tr></table></figure></li><li><p>将其他分支的修改合并到当前分支</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git merge Invoicing //Invoicing分支的名字</span><br><span class="line">git status</span><br><span class="line">git add —a</span><br><span class="line">git commit</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></li><li><p>拉取主干代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin develop //develop 为主分支名字</span><br></pre></td></tr></table></figure></li></ol>]]></content>
@@ -150,27 +150,6 @@
     </entry>
     
     <entry>
-      <title>typescript</title>
-      <link href="/%E5%89%8D%E7%AB%AF/typescript/"/>
-      <url>/%E5%89%8D%E7%AB%AF/typescript/</url>
-      <content type="html"><![CDATA[]]></content>
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 前端 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>macOS系统下的React Native 开发环境配置</title>
       <link href="/react-native/react-native/"/>
       <url>/react-native/react-native/</url>
@@ -186,6 +165,27 @@
         <tags>
             
             <tag> react-native </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>typescript</title>
+      <link href="/%E5%89%8D%E7%AB%AF/typescript/"/>
+      <url>/%E5%89%8D%E7%AB%AF/typescript/</url>
+      <content type="html"><![CDATA[]]></content>
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
             
         </tags>
       
@@ -209,16 +209,16 @@
     </entry>
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     

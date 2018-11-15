@@ -3,10 +3,30 @@
 
 
     
+  <url>
+    <loc>https://brightyang0801.github.io/git/action/</loc>
+    <lastmod>2018-11-05T03:05:24.629Z</lastmod>
+    <data>
+        <display>
+        <title>git</title>
+        <pubTime>2018-09-14T07:54:13.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="https://brightyang0801.github.io/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://brightyang0801.github.io/%E5%89%8D%E7%AB%AF/sass/</loc>
-    <lastmod>2018-09-14T07:06:57.829Z</lastmod>
+    <lastmod>2018-09-14T07:06:57.000Z</lastmod>
     <data>
         <display>
         <title>create-react-app如何使用sass</title>
@@ -26,7 +46,7 @@
     
   <url>
     <loc>https://brightyang0801.github.io/nginx/nginx/</loc>
-    <lastmod>2018-09-14T07:06:50.966Z</lastmod>
+    <lastmod>2018-09-14T07:06:50.000Z</lastmod>
     <data>
         <display>
         <title>nginx配置</title>
@@ -46,7 +66,7 @@
     
   <url>
     <loc>https://brightyang0801.github.io/mobx/mobx/</loc>
-    <lastmod>2018-09-14T07:06:47.062Z</lastmod>
+    <lastmod>2018-09-14T07:06:47.000Z</lastmod>
     <data>
         <display>
         <title>在react-native中使用mobx</title>
@@ -66,7 +86,7 @@
     
   <url>
     <loc>https://brightyang0801.github.io/git/gitConfig/</loc>
-    <lastmod>2018-09-14T07:06:39.939Z</lastmod>
+    <lastmod>2018-09-14T07:06:39.000Z</lastmod>
     <data>
         <display>
         <title>git的配置以及使用</title>
@@ -86,7 +106,7 @@
     
   <url>
     <loc>https://brightyang0801.github.io/git/git/</loc>
-    <lastmod>2018-09-14T07:06:36.277Z</lastmod>
+    <lastmod>2018-09-14T07:06:36.000Z</lastmod>
     <data>
         <display>
         <title>git修改分支名字</title>
@@ -106,7 +126,7 @@
     
   <url>
     <loc>https://brightyang0801.github.io/nginx/config/</loc>
-    <lastmod>2018-09-14T07:06:31.347Z</lastmod>
+    <lastmod>2018-09-14T07:06:31.000Z</lastmod>
     <data>
         <display>
         <title>nginx配置</title>
@@ -125,28 +145,8 @@
 
     
   <url>
-    <loc>https://brightyang0801.github.io/git/action/</loc>
-    <lastmod>2018-09-14T06:41:28.922Z</lastmod>
-    <data>
-        <display>
-        <title>git常用操作</title>
-        <pubTime>2018-09-14T07:54:13.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="https://brightyang0801.github.io/categories/git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://brightyang0801.github.io/react-native/react-native/</loc>
-    <lastmod>2018-09-14T03:47:39.142Z</lastmod>
+    <lastmod>2018-09-14T03:47:39.000Z</lastmod>
     <data>
         <display>
         <title>macOS系统下的React Native 开发环境配置</title>
@@ -167,7 +167,7 @@
     
   <url>
     <loc>https://brightyang0801.github.io/%E5%89%8D%E7%AB%AF/typescript/</loc>
-    <lastmod>2018-09-04T01:45:35.325Z</lastmod>
+    <lastmod>2018-09-04T01:45:35.000Z</lastmod>
     <data>
         <display>
         <title>typescript</title>
